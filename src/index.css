@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
 html,
-body, 
+body,
 #root,
 .app,
 .content {
@@ -10,29 +9,30 @@ body,
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 .app {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 /* Track */
-::-webkit-scrollbar-track{
-    background: #e0e0e0;
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+  background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: #555;
 }
